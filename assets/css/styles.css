@@ -42,3 +42,24 @@ h6 {
 p {
   margin-bottom: var(--space-2);
 }
+
+#message,
+#indicator {
+  margin: 8px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 8px;
+}
+
+#message {
+  border: var(--border);
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 8px;
+}
